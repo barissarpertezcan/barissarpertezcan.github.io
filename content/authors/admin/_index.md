@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+# title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Baris Sarper Tezcan
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Barış Sarper
+last_name: Tezcan
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,87 +20,112 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Undergraduate Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Middle East Technical University (METU)
+    url: https://www.metu.edu.tr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:barissarper@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/barissarpertezcan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/barissarpertezcan/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer Vision
+  - Minimal Supervision Algorithms
+  - Video Understanding
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: B.Sc. in Computer Engineering  
+    institution: Middle East Technical University
+    date_start: 2019-08-29
+    date_end: 2024-06-25
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      - CGPA: 3.91/4.0
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+
+  - area: Double Major in Mathematics
+    institution: Middle East Technical University
+    date_start: 2022-09-22
+    date_end: 2025-01-27
+    # maybe relevant math courses can be added here
     summary: |
-      GPA: 3.4/4.0
+      - CGPA: 3.82/4.0
       
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+ 
+  # - area: BSc Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.4/4.0
+      
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+  - position: Undergraduate Researcher
+    company_name: Under the supervision of Assoc. Dr. R. Gokberk Cinbis
+    company_url: https://user.ceng.metu.edu.tr/~gcinbis/
+    # company_logo: '' # metu logo can be added here
+    date_start: 2022-09-01
+    date_end: 2023-09-01
+    # TODO: update the summary
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+  - position: Computer Vision / Machine Learning Intern
+    company_name: Kuartis
+    company_url: https://kuartis.com/
+    # company_logo: '' # kuartis logo can be added here
+    date_start: 2023-07-01
+    date_end: 2023-09-01
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Conducted a literature review on Weather Classification for Autonomous Driving. Collected data for various weather conditions, applied the CLAHE filter to images, and divided them into patches. Adopted model architectures for multi-frame input, trained, and tested several image classification models.
+      - Performed a literature review on Semantic Occupancy Prediction. Presented a report summarizing state-of-the-art architectures, loss functions, and datasets.
+      - Implemented a horizon detection pipeline for Marines using classical vision methods. Utilized the Canny edge detector to extract edges at different scales, fused the extracted edge maps, fitted horizon lines on the fused maps using the Hough Line Transform, and eliminated outliers with RANSAC.
+      - Evaluated several trackers in the OpenCV library and determined that the CSRT Tracker is the most accurate while achieving real-time performance.
+      - Delivered a presentation on dataset curation, neural architecture search (NAS), and hyperparameter optimization.
+
+  - position: Research Intern
+    company_name: ROMER Lab
+    company_url: https://romer.metu.edu.tr/
+    company_logo: romer_logo # romer lab logo can be added here
+    date_start: 2022-07-01
+    date_end: 2022-09-01
+    # TODO: update the summary
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
@@ -114,7 +139,7 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        # percent: 80
         icon: code-bracket
       - name: Data Science
         description: ''
