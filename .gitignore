@@ -1,0 +1,15 @@
+# Hugo output directories and build files
+/public/
+/resources/
+/hugo_stats.json
+.hugo_build.lock
+
+# Backup and system files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using Node.js for any assets)
+/node_modules/
+
+# Temporary Hugo files
+.cache/
