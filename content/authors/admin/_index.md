@@ -91,15 +91,18 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
+# to add hyperlink, use <a href="https://google.com" target="_blank" rel="noopener noreferrer">selam</a>
+
 work:
   - position: Undergraduate Researcher
-    company_name: Under the supervision of Assoc. Dr. R. Gokberk Cinbis
+    company_name: Middle East Technical University
     company_url: https://user.ceng.metu.edu.tr/~gcinbis/
     # company_logo: '' # metu logo can be added here
     date_start: 2022-09-01
     date_end: 2023-09-01
     # TODO: update the summary
     summary: |
+      Worked under supervision of <a href="https://user.ceng.metu.edu.tr/~gcinbis/" target="_blank" rel="noopener noreferrer">R. Gokberk Cinbis</a>.
       Responsibilities include:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -118,61 +121,69 @@ work:
       - Implemented a horizon detection pipeline for Marines using classical vision methods. Utilized the Canny edge detector to extract edges at different scales, fused the extracted edge maps, fitted horizon lines on the fused maps using the Hough Line Transform, and eliminated outliers with RANSAC.
       - Evaluated several trackers in the OpenCV library and determined that the CSRT Tracker is the most accurate while achieving real-time performance.
       - Delivered a presentation on dataset curation, neural architecture search (NAS), and hyperparameter optimization.
+    button:
+      text: 'Read Internship Report'
+      url: 'https://drive.google.com/file/d/1wdvLHTA2j-__drK1_lvz2Nj314IBsXiC/view?usp=drive_link'
 
   - position: Research Intern
     company_name: ROMER Lab
     company_url: https://romer.metu.edu.tr/
-    company_logo: romer_logo # romer lab logo can be added here
+    company_logo: "custom/romer-logo.svg" # logo does not work
     date_start: 2022-07-01
     date_end: 2022-09-01
+
     # TODO: update the summary
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    button:
+      text: 'Read Internship Report'
+      url: 'https://drive.google.com/file/d/1ix-z_szTtdNrKaY11G4a1cmBrfSwGbCW/view?usp=drive_link'
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        # percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         description: ''
+#         # percent: 80
+#         icon: code-bracket
+#       - name: Data Science
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: SQL
+#         description: ''
+#         percent: 40
+#         icon: circle-stack
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking
+#         description: ''
+#         percent: 60
+#         icon: person-simple-walk
+#       - name: Cats
+#         description: ''
+#         percent: 100
+#         icon: cat
+#       - name: Photography
+#         description: ''
+#         percent: 80
+#         icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Chinese
+#     percent: 75
+#   - name: Portuguese
+#     percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -204,6 +215,15 @@ awards:
     icon: datacamp
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+
+certificates:
+  - title: Neural Networks and Deep Learning
+    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    date: '2023-11-25'
+    awarder: Coursera
+    icon: coursera
+    summary: |
+      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.  
 ---
 
 ## About Me

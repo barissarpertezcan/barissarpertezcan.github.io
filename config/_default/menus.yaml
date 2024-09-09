@@ -17,11 +17,14 @@ main:
   #   url: /#news
   #   weight: 13
   - name: Education & Experience
-    url: experience/
+    url: education-experience/
     weight: 20
   - name: Projects
     url: projects/
     weight: 30
+  - name: Awards & Certificates
+    url: awards-certificates/
+    weight: 40
   # - name: Teaching
   #   url: teaching/
-  #   weight: 40
+  #   weight: 50
