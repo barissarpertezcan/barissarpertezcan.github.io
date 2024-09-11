@@ -1,5 +1,5 @@
 ---
-title: 'Awards & Certificates'
+title: 'Awards'
 date: 2023-10-24
 type: landing
 
@@ -14,8 +14,9 @@ sections:
     content:
       title: Awards
       username: admin
-  - block: resume-awards
-    content:
-      title: Certificates
-      username: admin
+  # it gets the same content/info with the resume-awards block, I could not add a seperate block for certificates
+  # - block: resume-awards
+  #   content:
+  #     title: Certificates
+  #     username: admin
 ---
