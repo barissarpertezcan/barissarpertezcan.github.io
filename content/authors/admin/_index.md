@@ -124,7 +124,7 @@ work:
       url: 'https://drive.google.com/file/d/1wdvLHTA2j-__drK1_lvz2Nj314IBsXiC/view?usp=drive_link'
 
   - position: Research Intern
-    company_name: ROMER Lab
+    company_name: ROMER Research Center
     company_url: https://romer.metu.edu.tr/
     company_logo: "custom/romer-logo.svg" # logo does not work
     date_start: 2022-07-01
