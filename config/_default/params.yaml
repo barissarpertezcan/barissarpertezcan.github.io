@@ -34,8 +34,8 @@ header:
     fixed_to_top: true
     show_search: false
     show_theme_chooser: true
-    logo:
-      text: "Baris Sarper Tezcan"
+    logo: 
+    text: "Baris Sarper Tezcan"
 
 # Site footer
 footer:
