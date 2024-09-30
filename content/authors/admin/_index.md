@@ -103,9 +103,9 @@ work:
     date_start: 2022-09-01
     date_end: 2023-09-01
     summary: |2-
-      - Worked on the project “Weakly Supervised Learning for Remote Sensing Images” under the supervision of <a href="https://user.ceng.metu.edu.tr/~gcinbis/" target="_blank" rel="noopener noreferrer">R. Gokberk Cinbis</a>.
-      - Modified <a href="https://arxiv.org/abs/2101.11253" target="_blank" rel="noopener noreferrer">Puzzle-CAM</a> by replacing the background class activation map (CAM) with a ”couldn’t decide” CAM to handle uncertain predictions, addressing the lack of a background class in the remote sensing domain. Evaluated model performance across various confidence thresholds using the DeepGlobe Land Cover Classification Dataset.
-      - Conducted experiments on the effect of background and foreground threshold values in class activation maps on pseudo label quality using the PASCAL VOC dataset, identifying a key bottleneck in the weakly supervised semantic segmentation pipeline.
+      - Worked with <a href="https://user.ceng.metu.edu.tr/~gcinbis/" target="_blank" rel="noopener noreferrer">R. Gokberk Cinbis</a> on weakly supervised semantic segmentation (WSSS) using the PASCAL VOC 2012 dataset, employing only image-level labels as weak supervision.
+      - Analyzed the impact of confident region thresholds on <a href="https://arxiv.org/abs/1803.10464" target="_blank" rel="noopener noreferrer">AffinityNet</a> performance, showing that threshold selection directly influences pseudo-label quality and overall WSSS pipeline effectiveness.
+      - Devised novel evaluation criteria to optimize confident foreground and background thresholds, improving the quality of pseudo labels and addressing an important gap in existing research papers.
 
   - position: Computer Vision / Machine Learning Intern
     company_name: Kuartis
