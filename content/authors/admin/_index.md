@@ -106,6 +106,9 @@ work:
       - Worked with <a href="https://user.ceng.metu.edu.tr/~gcinbis/" target="_blank" rel="noopener noreferrer">R. Gokberk Cinbis</a> on weakly supervised semantic segmentation (WSSS) using the PASCAL VOC 2012 dataset, employing only image-level labels as weak supervision.
       - Analyzed the impact of confident region thresholds on <a href="https://arxiv.org/abs/1803.10464" target="_blank" rel="noopener noreferrer">AffinityNet</a> performance, showing that threshold selection directly influences pseudo-label quality and overall WSSS pipeline effectiveness.
       - Devised novel evaluation criteria to optimize confident foreground and background thresholds, improving the quality of pseudo labels and addressing an important gap in existing research papers.
+    button:
+      text: 'Read Research Report'
+      url: 'https://barissarpertezcan.github.io/uploads/wsss_report.pdf'
 
   - position: Computer Vision / Machine Learning Intern
     company_name: Kuartis
